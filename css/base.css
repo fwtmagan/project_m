@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  border: 0.8em solid #000;
+  max-width: 900px;
+}
+
+.profile {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 10vw;
+  margin: 30px auto;
+  letter-spacing: 0.4em;
+}
+
+.img {
+  width: 60vw;
+  height: auto;
+}
+
+.description {
+  margin: 15px auto;
+  font-size: 100%;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.buttons {
+  text-align: center;
+  padding: 1em;
+}
+
+.button_design {
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  fill: #000;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 180px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 1em;
+}
+
+.button_design:focus {
+  color: #171e29;
+}
+
+.button_design:hover {
+  border-color: #fff;
+  color: #8e8e8e;
+  text-decoration: underline;
+}
+
+.button_design:active {
+  border-color: #8e8e8e;
+  color: #8e8e8e;
+  fill: #8e8e8e;
+}
+
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .buttons {
+    display: block;
+  }
+
+  h1 {
+    font-size: 4vw;
+    letter-spacing: 0.2em;
+  }
+
+  .img {
+    width: 25vw;
+    height: auto;
+  }
+} */
+
+@media screen and (min-width: 1024px) {
+  .buttons {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 4vw;
+    letter-spacing: 0.2em;
+    margin: 8px 0;
+  }
+
+  .img {
+    width: 20vw;
+    height: auto;
+    margin: 8px;
+  }
+
+  .description {
+    margin: 8px auto;
+    font-size: 1em;
+  }
+}
