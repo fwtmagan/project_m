@@ -5,7 +5,11 @@
 
 body {
   border: 0.8em solid #000;
-  max-width: 900px;
+  max-height: 900px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .profile {
@@ -79,7 +83,27 @@ h1 {
   fill: #8e8e8e;
 }
 
-/* @media screen and (min-width: 768px) and (max-width: 1023px) {
+.heart_button {
+  width: 10vw;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.click {
+  width: 80px;
+  margin: 8px auto;
+}
+
+.click > p {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 8px;
+}
+
+@media screen and (min-width: 600px) {
   .buttons {
     display: block;
   }
@@ -93,7 +117,12 @@ h1 {
     width: 25vw;
     height: auto;
   }
-} */
+
+  .heart_button {
+    width: 4vw;
+    height: auto;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .buttons {
@@ -122,5 +151,10 @@ h1 {
   .description {
     margin: 8px auto;
     font-size: 1em;
+  }
+
+  .heart_button {
+    width: 3.5vw;
+    height: auto;
   }
 }
