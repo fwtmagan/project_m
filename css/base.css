@@ -93,6 +93,29 @@ footer {
   margin: 0 auto;
 }
 
+.heart {
+  margin-bottom: 16px;
+}
+
+.heart > p {
+  color: #000;
+  font-size: 18px;
+  text-shadow: 0 0 10px red, 0 0 50px red;
+  animation: heartbeat 0.8s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1.4);
+  }
+  60% {
+    transform: scale(1.9);
+  }
+}
+
 .click {
   width: 80px;
   margin: 8px auto;
